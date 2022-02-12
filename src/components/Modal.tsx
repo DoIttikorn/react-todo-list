@@ -1,6 +1,4 @@
-import React from "react";
-
-const Modal = () => {
+const Modal: React.FC = () => {
   return <div>Modal</div>;
 };
 

@@ -1,3 +1,4 @@
+
 ![Latest commit](https://badgen.net/github/last-commit/asurraa/react-vite2-ts-antd)
 
 # Vite2 + React + TS + Antd Starter Boilerplate
@@ -20,3 +21,8 @@
 
 ## Apps 
 - [qr-code-tools](https://qrcode.tools.asurraa.dev/) - free qr code tools.
+
+
+#REF
+
+https://www.youtube.com/watch?v=W0Uf_xu350k
