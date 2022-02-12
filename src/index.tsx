@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import "./styles/tailwind.css";
-
+import "antd/dist/antd.css";
 ReactDOM.render(
   <StrictMode>
     <App />

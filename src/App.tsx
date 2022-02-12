@@ -1,24 +1,13 @@
-import { Fragment } from "react";
-import { Col, DatePicker } from "antd";
-import { Text } from "./components/text";
+import LayoutComponent from "./Layout/index";
+import PageTitle from "./components/PageTitle";
+import AppHeader from "./components/AppHeader";
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <Fragment>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh",
-        }}
-      >
-        <div>
-          <Text title="Hello AsurRaa" />
-          <DatePicker />
-        </div>
-      </div>
-    </Fragment>
+    <LayoutComponent>
+      <PageTitle>TODO List</PageTitle>
+      <AppHeader></AppHeader>
+    </LayoutComponent>
   );
 };
 
